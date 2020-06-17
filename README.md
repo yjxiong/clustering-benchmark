@@ -14,7 +14,7 @@ After installed, use it as a library
 ```python
 from clustering_benchmark import ClusteringBenchmark
 
-bm = ClusteringBenchmark(gt_file=gt_filename)
+bm = ClusteringBenchmark(gt_data=gt)
 
 scores = bm.evaluate_vmeasure(prediction)
 

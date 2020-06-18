@@ -34,8 +34,11 @@ if __name__ == '__main__':
 
     scores = bm.evaluate_vmeasure(prediction_dict)
 
+    fmi_scores = bm.evaluate_fowlkes_mallows_score(prediction_dict)
+
     print("Evaluation results:")
     print(scores)
+    print(fmi_scores)
 
 
 
